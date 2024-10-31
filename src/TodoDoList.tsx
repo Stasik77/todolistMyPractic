@@ -35,6 +35,8 @@ export const ToDoList = (props: ToDoLisTypeProps) => {
                     <Button title={"+"}/>
                 </div>
                 <ul>
+
+
                     {/*{props.tasks.map((task:TaskType, id: number) => {*/}
                     {/*       return (*/}
                     {/*           <li key={task.id}>*/}
@@ -44,6 +46,8 @@ export const ToDoList = (props: ToDoLisTypeProps) => {
                     {/*        )*/}
                     {/*    }*/}
                     {/*)}*/}
+
+
                     {tasksList}
                 </ul>
                 <div>
