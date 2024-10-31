@@ -4,7 +4,7 @@ import {Button} from "./Button";
 
 type ToDoLisTypeProps = {
     title: string;
-    tasks: Array<TaskType>;
+    tasks: TaskType[];
 }
 
 type TaskType = {
